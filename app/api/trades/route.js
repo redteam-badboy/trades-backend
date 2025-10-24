@@ -4,7 +4,7 @@ import TradeModel from "@/app/lib/models/trade";
 
 const allowedOrigin = [
   "http://localhost:5173", // for local React dev (Vite)
-  "http://localhost:3000", // for local Next dev
+  "http://localhost:5173/pages/home", // for local Next dev
   "https://your-react-frontend.vercel.app", // replace with your real frontend domain
 ];
 
