@@ -2,7 +2,7 @@
 import { NextResponse } from "next/server";
 
 export const corsHeaders = {
-  "Access-Control-Allow-Origin": "*", // 🔒 replace * with your frontend URL later
+  "Access-Control-Allow-Origin": "https://trades-frontend.vercel.app", // 🔒 replace * with your frontend URL later
   "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
 };
